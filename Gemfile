@@ -4,6 +4,8 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.1'
 #static pages
 gem 'high_voltage', '~> 2.1.0'
+gem 'bootstrap-sass'
+gem 'bootstrap-x-editable-rails'
 
 group :development, :test do
   gem 'sqlite3', '1.3.8'
